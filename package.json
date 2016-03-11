@@ -1,6 +1,6 @@
 {
   "name": "pick-structure",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "main": "pick-structure.js",
   "repository": {
     "type": "git",
@@ -25,12 +25,11 @@
     "test": "mocha",
     "cover": "istanbul cover _mocha"
   },
-  "dependencies": {
-    "chai": "^3.0.0",
-    "lodash": "^4.0.1"
+  "dependencies": { "lodash": "^3.0.0"
   },
   "devDependencies": {
-    "istanbul": "^0.4.2",
-    "mocha": "^2.4.5"
+    "istanbul": "^0.4.0",
+    "chai": "^3.0.0",
+    "mocha": "^2.0.0"
   }
 }
