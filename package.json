@@ -1,0 +1,16 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha",
+    "cover": "istanbul cover _mocha"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "lodash": "^4.6.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  }
+}
