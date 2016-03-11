@@ -1,6 +1,26 @@
 {
-  "name": "application-name",
+  "name": "pick-structure",
   "version": "0.0.1",
+  "main": "pick-structure.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/weilao/pick-structure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weilao/pick-structure/issues"
+  },
+  "author": "weilao <qqq123026689@126.com> (https://github.com/weilao)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE"
+    }
+  ],
+  "keywords": [
+    "pick",
+    "sturcture",
+    "object"
+  ],
   "scripts": {
     "test": "mocha",
     "cover": "istanbul cover _mocha"
