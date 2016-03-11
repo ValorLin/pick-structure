@@ -26,8 +26,8 @@
     "cover": "istanbul cover _mocha"
   },
   "dependencies": {
-    "chai": "^3.5.0",
-    "lodash": "^4.6.1"
+    "chai": "^3.0.0",
+    "lodash": "^4.0.1"
   },
   "devDependencies": {
     "istanbul": "^0.4.2",
