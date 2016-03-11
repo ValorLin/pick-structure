@@ -22,7 +22,13 @@ describe('pickStructure', function () {
 
     it('nested array', function () {
         var actual;
-        actual = pickStructure({a: [{b: 1, b2: 2}]}, {a: [{b:99}]});
+        actual = pickStructure({a: [{b: 1, b2: 2}]}, {a: [{b: 99}]});
         assert.deepEqual(actual, {a: [{b: 1}]});
+    });
+
+    it('not object', function () {
+        var actual;
+        actual = pickStructure('test', {});
+        assert.equal(actual, 'test');
     });
 });

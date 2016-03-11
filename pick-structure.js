@@ -15,6 +15,8 @@ function pickStructure(obj, structureSource) {
                 result[key] = pickStructure(result[key], val);
             }
         });
+    } else {
+        result = obj;
     }
     return result;
 }
